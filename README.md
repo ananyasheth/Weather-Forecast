@@ -1,8 +1,8 @@
-#### Weather Prediction Model
-##### Introduction
+### Weather Prediction Model
+#### Introduction
 This is a weather prediction model designed to provide accurate weather forecasts based on historical weather data. The model is built using logistic regression, a statistical method that is commonly used for binary classification problems.
 
-#####Methodology
+#### Methodology
 The goal of this model is to accurately predict the weather condition (e.g. sunny, rainy, cloudy, etc.) for a given location, based on a set of input features (e.g. temperature, humidity, pressure, etc.). Logistic regression was chosen as the method for building the model due to its ability to model the relationship between a set of independent variables and a binary dependent variable.
 
 The process of building the weather prediction model can be broken down into the following steps:
@@ -17,7 +17,7 @@ Model Evaluation: The trained model was then evaluated on a separate test datase
 
 Model Deployment: Finally, the trained model was deployed for use, allowing users to input their own weather features and receive a prediction of the corresponding weather condition.
 
-#####Mathematical Foundation
+#### Mathematical Foundation
 The mathematical foundation of logistic regression lies in the concept of the logistic function, also known as the sigmoid function. The logistic function maps any input value to a value between 0 and 1, which can be interpreted as a probability. The output of the logistic regression model is a probability of a given weather condition, given the input weather features.
 
 The logistic regression model is formulated as:
@@ -30,6 +30,6 @@ The loss function used to train the logistic regression model is the binary cros
 L = -[y * log(p(y=1|x)) + (1 - y) * log(1 - p(y=1|x))]
 where y is the actual weather condition (0 or 1) and p(y=1|x) is the predicted probability of the weather condition being 1. The goal of training the model is to minimize the binary cross-entropy loss, which can be achieved by adjusting the coefficients b.
 
-#####Conclusion
+#### Conclusion
 
 The weather prediction model is a tool that uses logistic regression to make accurate weather forecasts based on historical weather data. The process of building the model involves collecting and preprocessing weather data, training the logistic regression model, evaluating its accuracy, and deploying it for use. The mathematical foundation of the model involves the logistic function and the binary cross-entropy loss function, which are used to calculate the probability of a given weather condition based on input weather features and to minimize the difference between the predicted probability and the actual weather condition.
