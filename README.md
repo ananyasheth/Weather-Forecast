@@ -27,7 +27,7 @@ where p(y=1|x) is the probability of the weather condition being 1 (e.g. sunny) 
 
 The loss function used to train the logistic regression model is the binary cross-entropy loss, which measures the difference between the predicted probability and the actual weather condition. The binary cross-entropy loss is formulated as:
 
-J(w) = -\frac{1}{m} \sum_{i=1}^{m} [y^{(i)} \log (h_w(x^{(i)})) + (1 - y^{(i)}) \log (1 - h_w(x^{(i)}))]
+$$ J(w) = -\frac{1}{m} \sum_{i=1}^{m} [y^{(i)} \log (h_w(x^{(i)})) + (1 - y^{(i)}) \log (1 - h_w(x^{(i)}))]
 
 where y is the actual weather condition (0 or 1) and p(y=1|x) is the predicted probability of the weather condition being 1. The goal of training the model is to minimize the binary cross-entropy loss, which can be achieved by adjusting the coefficients b.
 
