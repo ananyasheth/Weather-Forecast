@@ -1,5 +1,5 @@
-####Weather Prediction Model
-#####Introduction
+#### Weather Prediction Model
+##### Introduction
 This is a weather prediction model designed to provide accurate weather forecasts based on historical weather data. The model is built using logistic regression, a statistical method that is commonly used for binary classification problems.
 
 #####Methodology
