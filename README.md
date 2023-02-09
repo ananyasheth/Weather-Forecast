@@ -36,4 +36,4 @@ In this example, the ROC curve indicates a high degree of accuracy, with an area
 
 #### Usage
 
-The code for the weather prediction model can be found in the `weather_model.py` file in this repository. The code can be run using a Python interpreter, and the required dependencies can be installed using the `requ
+The code for the weather prediction model can be found in the `Weather_prediction.ipynb` file in this repository. The code can be run using a Python interpreter, and the required dependencies can be installed using the `requ
