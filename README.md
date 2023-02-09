@@ -31,7 +31,7 @@ The model is trained on a large dataset of historical weather data, and the trai
 The trained model is evaluated on a separate test dataset, and the results are compared with actual weather conditions to assess the accuracy of the model. One measure of accuracy is the receiver operating characteristic (ROC) curve, which plots the true positive rate against the false positive rate for different thresholds. A high-quality model will have an ROC curve that is close to the top-left corner of the plot, indicating a high true positive rate and a low false positive rate.
 
 <p align="center">
-  <img src="weather_prediction.png">
+  <img src="weather_prediction.png" style="background-color: black;">
 </p>
 
 In this example, the ROC curve indicates a high degree of accuracy, with an area under the curve (AUC) of 0.97. This indicates that the model is able to accurately differentiate between the two weather conditions with a high degree of confidence.
