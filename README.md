@@ -34,3 +34,24 @@ where y is the actual weather condition (0 or 1) and p(y=1|x) is the predicted p
 #### Conclusion
 
 The weather prediction model is a tool that uses logistic regression to make accurate weather forecasts based on historical weather data. The process of building the model involves collecting and preprocessing weather data, training the logistic regression model, evaluating its accuracy, and deploying it for use. The mathematical foundation of the model involves the logistic function and the binary cross-entropy loss function, which are used to calculate the probability of a given weather condition based on input weather features and to minimize the difference between the predicted probability and the actual weather condition.
+
+# Weather Prediction Model
+
+This repository contains a weather prediction model that uses logistic regression to make accurate weather forecasts based on historical weather data.
+
+## Mathematical Foundation
+
+The mathematical foundation of the model involves the logistic function and the binary cross-entropy loss function, which are used to calculate the probability of a given weather condition based on input weather features and to minimize the difference between the predicted probability and the actual weather condition.
+
+The binary cross-entropy loss function is given by the following equation:
+
+$$ J(w) = -\frac{1}{m} \sum_{i=1}^{m} [y^{(i)} \log (h_w(x^{(i)})) + (1 - y^{(i)}) \log (1 - h_w(x^{(i)}))] $$
+
+where `m` is the number of samples, `w` is the weight vector, `h_w(x)` is the predicted probability that the sample belongs to class 1 (also known as the sigmoid function), `y` is the true label of the sample, and `x` is the feature vector.
+
+The goal of training the logistic regression model is to find the weights `w` that minimize the cost function `J(w)`.
+
+## Code
+
+The code for the weather prediction model, including the logistic regression algorithm and the binary cross-entropy loss function, can be found in the `weather_model.py` file in this repository.
+
